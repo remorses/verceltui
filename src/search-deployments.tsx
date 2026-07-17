@@ -66,7 +66,7 @@ export default function SearchDeployments() {
       navigationTitle="Vercel Deployments"
       isLoading={isLoading}
       isShowingDetail={true}
-      accessoryTagsLayout={[14, 10, 7]}
+      accessoryTagsLayout={[34, 10, 8]}
       searchBarAccessory={
         teams && teams.length > 0 ? (
           <List.Dropdown
