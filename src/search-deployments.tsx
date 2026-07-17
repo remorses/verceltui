@@ -66,7 +66,7 @@ export default function SearchDeployments() {
       navigationTitle="Vercel Deployments"
       isLoading={isLoading}
       isShowingDetail={true}
-      accessoryTagsLayout={[10, 8]}
+      accessoryTagsLayout={[14, 10, 7]}
       searchBarAccessory={
         teams && teams.length > 0 ? (
           <List.Dropdown
@@ -106,6 +106,7 @@ export default function SearchDeployments() {
             title={commitMessage}
             icon={stateIcon(state)}
             accessories={[
+              { tag: { value: deployment.name, color: Color.Blue } },
               stateInfo
                 ? { tag: { value: stateInfo.label, color: stateInfo.color } }
                 : { tag: null },

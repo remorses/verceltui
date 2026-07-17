@@ -33,11 +33,11 @@ test('list shows deployments after loading', async () => {
 
        > Search Deployments...
 
-      ›● feat: ad...e toggle Ready      5m ago   │ my-app                                 ▲
-       ● fix: res... timeout Building   30m ago  │ feat: add dark mode toggle             █
-       ● chore: u...ndencies Failed     2h ago   │                                        █
-       ● perf: op... queries Ready      1d ago   │ Project: my-app                        ▀
-       ● No commit message   Canceled   3d ago   │
+      ›● f...e my-app         Ready      5m ago  │ my-app                                 ▲
+       ● f...t my-app         Building   30m ago │ feat: add dark mode toggle             █
+       ● c...s docs-site      Failed     2h ago  │                                        █
+       ● p...s api-service    Ready      1d ago  │ Project: my-app                        ▀
+       ● N...e landing-page   Canceled   3d ago  │
                                                  │ Status:  Ready
                                                  │
                                                  │ Target:  production
@@ -46,7 +46,7 @@ test('list shows deployments after loading', async () => {
                                                  │
                                                  │ Branch:  main
                                                  │
-                                                 │ Created: 7/17/2026, 12:08:22 PM
+                                                 │ Created: 7/17/2026, 12:11:53 PM
                                                  │
                                                  │ Author:  tommy
        ↵ open deployment   ↑↓ navigate   ^k acti │                                        ▼
@@ -73,11 +73,11 @@ test('navigate between deployments with arrow keys', async () => {
 
        > Search Deployments...
 
-       ● feat: ad...e toggle Ready      5m ago   │ my-app                                 ▲
-      ›● fix: res... timeout Building   30m ago  │ fix: resolve login timeout             █
-       ● chore: u...ndencies Failed     2h ago   │                                        █
-       ● perf: op... queries Ready      1d ago   │ Project: my-app                        ▀
-       ● No commit message   Canceled   3d ago   │
+       ● f...e my-app         Ready      5m ago  │ my-app                                 ▲
+      ›● f...t my-app         Building   30m ago │ fix: resolve login timeout             █
+       ● c...s docs-site      Failed     2h ago  │                                        █
+       ● p...s api-service    Ready      1d ago  │ Project: my-app                        ▀
+       ● N...e landing-page   Canceled   3d ago  │
                                                  │ Status:  Building
                                                  │
                                                  │ Target:  staging
@@ -86,7 +86,7 @@ test('navigate between deployments with arrow keys', async () => {
                                                  │
                                                  │ Branch:  fix/login-timeout
                                                  │
-                                                 │ Created: 7/17/2026, 11:43:23 AM
+                                                 │ Created: 7/17/2026, 11:46:53 AM
                                                  │
                                                  │ Author:  tommy
        ↵ open deployment   ↑↓ navigate   ^k acti │                                        ▼
@@ -105,11 +105,11 @@ test('navigate between deployments with arrow keys', async () => {
 
        > Search Deployments...
 
-       ● feat: ad...e toggle Ready      5m ago   │ docs-site                              ▲
-       ● fix: res... timeout Building   30m ago  │ chore: update dependencies             █
-      ›● chore: u...ndencies Failed     2h ago   │                                        █
-       ● perf: op... queries Ready      1d ago   │ Project: docs-site                     ▀
-       ● No commit message   Canceled   3d ago   │
+       ● f...e my-app         Ready      5m ago  │ docs-site                              ▲
+       ● f...t my-app         Building   30m ago │ chore: update dependencies             █
+      ›● c...s docs-site      Failed     2h ago  │                                        █
+       ● p...s api-service    Ready      1d ago  │ Project: docs-site                     ▀
+       ● N...e landing-page   Canceled   3d ago  │
                                                  │ Status:  Failed
                                                  │
                                                  │ Target:  preview
@@ -118,7 +118,7 @@ test('navigate between deployments with arrow keys', async () => {
                                                  │
                                                  │ Branch:  chore/deps
                                                  │
-                                                 │ Created: 7/17/2026, 10:13:23 AM
+                                                 │ Created: 7/17/2026, 10:16:53 AM
                                                  │
                                                  │ Author:  alice
        ↵ open deployment   ↑↓ navigate   ^k acti │                                        ▼
@@ -146,7 +146,7 @@ test('search filters deployments', async () => {
 
        > optimize
 
-      ›● perf: op... queries Ready      1d ago   │ api-service                            ▲
+      ›● p...s api-service    Ready      1d ago  │ api-service                            ▲
                                                  │ perf: optimize database queries        █
                                                  │                                        █
                                                  │ Project: api-service                   ▀
@@ -159,7 +159,7 @@ test('search filters deployments', async () => {
                                                  │
                                                  │ Branch:  main
                                                  │
-                                                 │ Created: 7/16/2026, 12:13:24 PM
+                                                 │ Created: 7/16/2026, 12:16:54 PM
                                                  │
                                                  │ Author:  tommy
        ↵ open deployment   ↑↓ navigate   ^k acti │                                        ▼
